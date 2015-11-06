@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		7D08F6451BED56B600C54067 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D08F6441BED56B600C54067 /* main.cpp */; };
+		7D08F64C1BED56C900C54067 /* SDL2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D08F64B1BED56C900C54067 /* SDL2.framework */; };
+		7D08F64F1BED604000C54067 /* Running.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D08F64D1BED604000C54067 /* Running.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,9 @@
 /* Begin PBXFileReference section */
 		7D08F6411BED56B600C54067 /* Sithy */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Sithy; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D08F6441BED56B600C54067 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		7D08F64B1BED56C900C54067 /* SDL2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2.framework; path = ../../../../Library/Frameworks/SDL2.framework; sourceTree = "<group>"; };
+		7D08F64D1BED604000C54067 /* Running.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Running.cpp; sourceTree = "<group>"; };
+		7D08F64E1BED604000C54067 /* Running.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Running.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D08F64C1BED56C900C54067 /* SDL2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -41,6 +47,7 @@
 		7D08F6381BED56B600C54067 = {
 			isa = PBXGroup;
 			children = (
+				7D08F64B1BED56C900C54067 /* SDL2.framework */,
 				7D08F6431BED56B600C54067 /* Sithy */,
 				7D08F6421BED56B600C54067 /* Products */,
 			);
@@ -58,6 +65,8 @@
 			isa = PBXGroup;
 			children = (
 				7D08F6441BED56B600C54067 /* main.cpp */,
+				7D08F64D1BED604000C54067 /* Running.cpp */,
+				7D08F64E1BED604000C54067 /* Running.h */,
 			);
 			path = Sithy;
 			sourceTree = "<group>";
@@ -119,6 +128,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7D08F6451BED56B600C54067 /* main.cpp in Sources */,
+				7D08F64F1BED604000C54067 /* Running.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,6 +215,10 @@
 		7D08F6491BED56B600C54067 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -212,6 +226,10 @@
 		7D08F64A1BED56B600C54067 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
