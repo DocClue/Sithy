@@ -20,6 +20,6 @@ class isRunning{
     
     void drawScreen();
     void loadMedia();
-    void quite()p;
+    void quite();
     
 };

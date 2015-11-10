@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>4FDFB86C-0E0C-423D-82E6-06B40582D1AA</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Sithy</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>02295D66F3DC30F33A1A28CB5C84403525810E35</key>
+		<string>https://github.com/DocClue/Sithy.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Sithy.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>02295D66F3DC30F33A1A28CB5C84403525810E35</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/DocClue/Sithy.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>02295D66F3DC30F33A1A28CB5C84403525810E35</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>02295D66F3DC30F33A1A28CB5C84403525810E35</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Sithy</string>
+		</dict>
+	</array>
+</dict>
+</plist>

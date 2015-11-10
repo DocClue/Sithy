@@ -10,6 +10,7 @@
 		7D08F6451BED56B600C54067 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D08F6441BED56B600C54067 /* main.cpp */; };
 		7D08F64C1BED56C900C54067 /* SDL2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D08F64B1BED56C900C54067 /* SDL2.framework */; };
 		7D08F64F1BED604000C54067 /* Running.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D08F64D1BED604000C54067 /* Running.cpp */; };
+		7D24C3DD1BF1540C00E2AEFE /* SDL2_image.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D24C3DC1BF1540C00E2AEFE /* SDL2_image.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -30,6 +31,7 @@
 		7D08F64B1BED56C900C54067 /* SDL2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2.framework; path = ../../../../Library/Frameworks/SDL2.framework; sourceTree = "<group>"; };
 		7D08F64D1BED604000C54067 /* Running.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Running.cpp; sourceTree = "<group>"; };
 		7D08F64E1BED604000C54067 /* Running.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Running.h; sourceTree = "<group>"; };
+		7D24C3DC1BF1540C00E2AEFE /* SDL2_image.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2_image.framework; path = ../../../../Library/Frameworks/SDL2_image.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D24C3DD1BF1540C00E2AEFE /* SDL2_image.framework in Frameworks */,
 				7D08F64C1BED56C900C54067 /* SDL2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -47,6 +50,7 @@
 		7D08F6381BED56B600C54067 = {
 			isa = PBXGroup;
 			children = (
+				7D24C3DC1BF1540C00E2AEFE /* SDL2_image.framework */,
 				7D08F64B1BED56C900C54067 /* SDL2.framework */,
 				7D08F6431BED56B600C54067 /* Sithy */,
 				7D08F6421BED56B600C54067 /* Products */,
@@ -253,6 +257,7 @@
 				7D08F64A1BED56B600C54067 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
